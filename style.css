@@ -1,0 +1,67 @@
+* {
+
+    --primary: black;
+    --secondary: #068FFF;
+    --tp: Verdana, Geneva, Tahoma, sans-serif;
+    --size: 1rem;
+    background-color: var(--primary);
+    max-width: 100%;
+
+}
+
+.body {
+    color: var(--secondary);
+    font-size: var(--size);
+    font-family: var(--tp);
+}
+
+.principal__Header {
+    color: var(--secondary);
+    font-size: 2rem;
+    font-family: var(--tp);
+    text-align: center;
+    padding-top: 2%;
+}
+
+
+.body {
+    color: var(--secondary);
+}
+
+.principal__Clock {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    margin: 4rem auto;
+    padding: 1rem 2rem;
+}
+
+.principal__Time {
+    font-size: 5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.principal__Controls {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.Controls button {
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    user-select: none;
+
+}
+
+.principal__Footer {
+    color: var(--secondary);
+    font-size: 1.5rem;
+    font-family: var(--tp);
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
