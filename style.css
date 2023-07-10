@@ -46,9 +46,10 @@
     display: flex;
     text-align: center;
     justify-content: center;
+
 }
 
-.controls__button {
+.principal__Controls button {
     appearance: none;
     background: none;
     border: none;
@@ -62,6 +63,7 @@
     border: solid;
     border-radius: 0.5rem;
     transition: 0.4s;
+
 
 }
 
