@@ -48,13 +48,30 @@
     justify-content: center;
 }
 
-.Controls button {
+.controls__button {
     appearance: none;
     background: none;
     border: none;
     outline: none;
     user-select: none;
+    cursor: pointer;
+    color: var(--secondary);
+    font-size: 1.125rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border: solid;
+    border-radius: 0.5rem;
+    transition: 0.4s;
 
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+button:active {
+    background-color: #FFFFFF;
+    animation-duration: 5ms;
 }
 
 .principal__Footer {
